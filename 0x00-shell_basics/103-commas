@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -1Ap | awk '{printf "%s%s", $0~/\/$/ ? $0 : $0",", "\n"}' | sort -d -f -k1.1,1.1 -k1.2n
+ls -amvp
